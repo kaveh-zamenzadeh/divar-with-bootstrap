@@ -1,0 +1,52 @@
+
+input {
+    width: 30rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #F5F5F5;
+    color: rgba(0,0,0,.87);
+    border-radius: 0.3rem;
+    padding-right: 2rem;
+} 
+.img-logo{
+    width: 3rem;
+    height: 3rem;
+  
+}
+.hr::after{
+    content:" ";
+    display: block;
+    height:.1rem;
+    background-color: rgb(217, 217, 217);
+    width:63rem;
+}
+.list-style{
+    list-style: none;
+}
+.images{
+height: 178px;
+}
+@media screen and( max-width:576px){
+    .saidbar{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1186px) {
+    .btn-white{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:665px) {
+    input {
+        width: 20rem;
+        border: none;
+        font-size: 0.8rem;
+        background-color: #F5F5F5;
+        color: rgba(0,0,0,.87);
+        border-radius: 0.3rem;
+        padding-right: 2rem;
+    } 
+    
+}
